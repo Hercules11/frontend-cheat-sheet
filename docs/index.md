@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "我的前端小抄"
+  name: "前端小抄"
   text: "记录一些前端代码片段"
   tagline: 网站纲要
   actions:
