@@ -16,13 +16,13 @@ export default defineConfig({
 		],
 	],
 	themeConfig: {
-		logo: { src: "/public/vitepress-logo-mini.svg", width: 24, height: 24 },
+		logo: { src: "/vitepress-logo-mini.svg", width: 24, height: 24 },
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
 			{ text: "主页", link: "/" },
 			{
 				text: "详情页",
-				link: "/JavaScript/Class 的 Function 和 Prototype 实现.md",
+				link: "/javascript/Class 的 Function 和 Prototype 实现.md",
 			},
 		],
 
@@ -33,7 +33,7 @@ export default defineConfig({
 				items: [
 					{
 						text: "Class 的 Function 和 Prototype 实现",
-						link: "/JavaScript/Class 的 Function 和 Prototype 实现.md",
+						link: "/javascript/Class 的 Function 和 Prototype 实现.md",
 					},
 					{ text: "Runtime API Examples", link: "/api-examples" },
 				],
@@ -50,6 +50,7 @@ export default defineConfig({
 				text: "HTML 相关",
 				collapsed: true,
 				items: [
+				{ text: "Test CD", link: "/html/Test CD"},
 					{ text: "Markdown Examples", link: "/markdown-examples" },
 					{ text: "Runtime API Examples", link: "/api-examples" },
 				],
