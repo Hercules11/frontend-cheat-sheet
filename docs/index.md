@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "My Frontend Cheat Sheet"
-  text: "record some frontend code snippets"
-  tagline: My great project tagline
+  name: "我的前端小抄"
+  text: "记录一些前端代码片段"
+  tagline: 网站纲要
   actions:
     - theme: brand
       text: Markdown Examples
@@ -16,10 +16,10 @@ hero:
 
 features:
   - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 前端功能实现，实时修改演示
   - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 代码机制解释，丰富图形卡片
   - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 我觉得值得记录的代码
 ---
 
