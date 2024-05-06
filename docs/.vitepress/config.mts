@@ -34,7 +34,7 @@ export default defineConfig({
 			{ text: "主页", link: "/" },
 			{
 				text: "详情页",
-				link: encodeURI("/javascript/Class 的 Function 和 Prototype 实现.md"),
+				link: encodeURI("/javascript/class 的 function 和 prototype 实现.md"),
 			},
 		],
 
@@ -64,7 +64,9 @@ export default defineConfig({
 				items: [
 					{
 						text: "class 的 function 和 prototype 实现",
-						link: encodeURI("/javascript/class 的 function 和 prototype 实现.md"),
+						link: encodeURI(
+							"/javascript/class 的 function 和 prototype 实现.md"
+						),
 					},
 					{
 						text: "vscode 的 live reload 源代码分析",
@@ -85,7 +87,7 @@ export default defineConfig({
 			{
 				text: "HTML",
 				collapsed: true,
-				items: [{ text: "HTML 语义化", link: encodeURI("/html/HTML 语义化") }],
+				items: [{ text: "HTML 语义化", link: encodeURI("/html/html 语义化") }],
 			},
 			{ text: "Markdown Examples", link: "/markdown-examples" },
 			{ text: "Runtime API Examples", link: "/api-examples" },
