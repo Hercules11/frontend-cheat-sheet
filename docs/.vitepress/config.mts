@@ -64,9 +64,7 @@ export default defineConfig({
 				items: [
 					{
 						text: "class 的 function 和 prototype 实现",
-						link: encodeURI(
-							"/javascript/class 的 function 和 prototype 实现.md"
-						),
+						link: encodeURI("/javascript/class 的 function 和 prototype 实现.md"),
 					},
 					{
 						text: "vscode 的 live reload 源代码分析",
