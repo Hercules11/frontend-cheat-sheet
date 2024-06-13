@@ -42,7 +42,20 @@ export default defineConfig({
 			{
 				text: "React",
 				collapsed: true,
-				items: [],
+				items: [
+					{
+						text: "useEffect 执行顺序",
+						link: encodeURI("/react/useEffect 执行顺序.md"),
+					},
+					{
+						text: "实现 useHover",
+						link: encodeURI("/react/实现 useHover.md"),
+					},
+					{
+						text: "为什么使用 useCallback",
+						link: encodeURI("/react/为什么使用 useCallback.md"),
+					},
+				],
 			},
 			{
 				text: "Vue",
@@ -75,12 +88,34 @@ export default defineConfig({
 				],
 			},
 			{
+				text: "TypeScript",
+				collapsed: true,
+				items: [
+					{
+						text: "实现 Filter<T, A>",
+						link: encodeURI("/typescript/实现 Filter.md"),
+					},
+					{
+						text: "实现 Slice<A, S, E>",
+						link: encodeURI("/typescript/实现 Slice.md"),
+					},
+				],
+			},
+			{
 				text: "CSS",
 				collapsed: true,
 				items: [
 					{
 						text: "css-in-depth 学习笔记",
 						link: encodeURI("/css/css-in-depth 学习笔记.md"),
+					},
+					{
+						text: "twitter css 布局",
+						link: encodeURI("/css/twitter css 布局.md"),
+					},
+					{
+						text: "background-position 的使用",
+						link: encodeURI("/css/background-position 的使用.md"),
 					},
 				],
 			},
